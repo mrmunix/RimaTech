@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writeups on Rima Technologies</title>
+    <link>http://localhost:38185/writeups/</link>
+    <description>Recent content in Writeups on Rima Technologies</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 May 2025 22:40:12 -0400</lastBuildDate>
+    <atom:link href="http://localhost:38185/writeups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysecondhackthebox</title>
+      <link>http://localhost:38185/writeups/hackthebox/mysecondhackthebox/</link>
+      <pubDate>Thu, 22 May 2025 22:40:12 -0400</pubDate>
+      <guid>http://localhost:38185/writeups/hackthebox/mysecondhackthebox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myfirsthackthebox</title>
+      <link>http://localhost:38185/writeups/hackthebox/myfirsthackthebox/</link>
+      <pubDate>Thu, 22 May 2025 22:39:53 -0400</pubDate>
+      <guid>http://localhost:38185/writeups/hackthebox/myfirsthackthebox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myfirstblog</title>
+      <link>http://localhost:38185/writeups/blogs/myfirstblog/</link>
+      <pubDate>Thu, 22 May 2025 22:39:39 -0400</pubDate>
+      <guid>http://localhost:38185/writeups/blogs/myfirstblog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myfirstwriteup</title>
+      <link>http://localhost:38185/writeups/myfirstwriteup/</link>
+      <pubDate>Thu, 22 May 2025 22:37:38 -0400</pubDate>
+      <guid>http://localhost:38185/writeups/myfirstwriteup/</guid>
+      <description>&lt;p&gt;put a list of the writeups by category in here&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

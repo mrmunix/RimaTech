@@ -1,0 +1,21 @@
+baseURL = 'RimaTechnologies.com'
+languageCode = 'en-US'
+title = 'Rima Technologies'
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Workshop"
+        url = "/workshop/"
+        weight = 2
+    [[menu.main]]
+        name = "Resources"
+        url = "/resources/"
+        weight = 3
+    [[menu.main]]
+        name = "Writeups"
+        url = "/writeups/myfirstwriteup"
+        weight = 4
