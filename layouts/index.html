@@ -1,44 +1,6 @@
-<!DOCTYPE html>
-<html><head>
-	<meta name="generator" content="Hugo 0.147.5">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    
-    
-    <title>Rima Technologies</title>
-</head><body><div id="nav-border" class="container">
-    <nav id="nav" class="nav justify-content-center">
-        
-        <a class="nav-link" href="/">
-        
-        
-        Home
-        </a>
-        
-        <a class="nav-link" href="/workshop/">
-        
-        
-        Workshop
-        </a>
-        
-        <a class="nav-link" href="/resources/">
-        
-        
-        Resources
-        </a>
-        
-        <a class="nav-link" href="/writeups/myfirstwriteup">
-        
-        
-        Writeups
-        </a>
-        
-    </nav>
-</div><div id="content">
+{{ define "main" }}
 <div id="home-jumbotron" class="jumbotron text-center">
-  <h1 class="title">Rima Technologies</h1>
+  <h1 class="title">{{ .Site.Title }}</h1>
   <section class="about-list">
     <div class="title">
         <h1>
@@ -102,16 +64,4 @@
     
 </section>
 </div>
-
-        </div><section class="socials">
-    <ul>
-        <a href="https://github.com/mrmunix">Github</a>
-        <a href="https://app.hackthebox.com/profile/1568751">HackTheBox</a>
-        <a href="https://leetcode.com/jamir12/">LeetCode</a>
-        <a href="https://bugcrowd.com/jabir">BugCrowd</a>
-    </ul>
-</section><script src="/js/feather.min.js"></script>
-<script>
-  feather.replace()
-</script></body>
-</html>
+{{ end }}

@@ -1,6 +1,6 @@
 +++
 date = '2025-05-22T22:37:38-04:00'
-draft = true
+draft = false
 title = 'Myfirstwriteup'
 tags = ["",""]
 description = ''
