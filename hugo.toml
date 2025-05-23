@@ -2,3 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Rima Technologies'
 theme = 'munix'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
