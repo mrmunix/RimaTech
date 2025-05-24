@@ -17,13 +17,13 @@ uglyURLs = true
         weight = 1
     [[menu.main]]
         name = "Workshop"
-        url = "/workshop/"
+        url = "workshop/"
         weight = 2
     [[menu.main]]
         name = "Resources"
-        url = "/resources/"
+        url = "resources/"
         weight = 3
     [[menu.main]]
         name = "Writeups"
-        url = "/writeups/myfirstwriteup"
+        url = "writeups/myfirstwriteup"
         weight = 4
