@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = "https://mrmunix.github.io/RimaTech/"
 languageCode = 'en-us'
 title = 'Rima Technologies'
 theme = 'munix'
