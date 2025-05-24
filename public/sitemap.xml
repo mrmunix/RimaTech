@@ -2,45 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/writeups/hackthebox/mysecondhackthebox/</loc>
+    <loc>/writeups/hackthebox/mysecondhackthebox/</loc>
     <lastmod>2025-05-22T22:40:12-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/writeups/</loc>
+    <loc>/writeups/</loc>
     <lastmod>2025-05-22T22:40:12-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/writeups/hackthebox/myfirsthackthebox/</loc>
+    <loc>/writeups/hackthebox/myfirsthackthebox/</loc>
     <lastmod>2025-05-22T22:39:53-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/writeups/blogs/myfirstblog/</loc>
+    <loc>/writeups/blogs/myfirstblog/</loc>
     <lastmod>2025-05-22T22:39:39-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/writeups/myfirstwriteup/</loc>
+    <loc>/writeups/myfirstwriteup/</loc>
     <lastmod>2025-05-22T22:37:38-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/resources/</loc>
+    <loc>/resources/</loc>
     <lastmod>2025-05-22T22:36:32-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/workshop/secondpost/</loc>
+    <loc>/workshop/secondpost/</loc>
     <lastmod>2025-05-22T22:16:10-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/workshop/</loc>
+    <loc>/workshop/</loc>
     <lastmod>2025-05-22T22:16:10-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/bar/</loc>
+    <loc>/tags/bar/</loc>
     <lastmod>2025-05-22T21:46:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/foo/</loc>
+    <loc>/tags/foo/</loc>
     <lastmod>2025-05-22T21:46:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/workshop/my-first-post/</loc>
+    <loc>/workshop/my-first-post/</loc>
     <lastmod>2025-05-22T21:46:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2025-05-22T21:46:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>/categories/</loc>
   </url>
 </urlset>
