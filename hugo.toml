@@ -2,6 +2,9 @@ baseURL = "https://mrmunix.github.io/"
 languageCode = 'en-us'
 title = 'Rima Technologies'
 theme = 'munix'
+relativeURLs = true
+uglyURLs = true
+
 
 [caches]
   [caches.images]
