@@ -17,7 +17,7 @@ uglyURLs = true
         weight = 1
     [[menu.main]]
         name = "Workshop"
-        url = "/workshop/"
+        url = "workshop/"
         weight = 2
     [[menu.main]]
         name = "Resources"
