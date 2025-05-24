@@ -10,51 +10,51 @@
     <atom:link href="https://mrmunix.github.io/RimaTech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mysecondhackthebox</title>
-      <link>https://mrmunix.github.io/RimaTech/writeups/hackthebox/mysecondhackthebox.html</link>
+      <link>https://mrmunix.github.io/RimaTech/writeups/hackthebox/mysecondhackthebox/</link>
       <pubDate>Thu, 22 May 2025 22:40:12 -0400</pubDate>
-      <guid>https://mrmunix.github.io/RimaTech/writeups/hackthebox/mysecondhackthebox.html</guid>
+      <guid>https://mrmunix.github.io/RimaTech/writeups/hackthebox/mysecondhackthebox/</guid>
       <description></description>
     </item>
     <item>
       <title>Myfirsthackthebox</title>
-      <link>https://mrmunix.github.io/RimaTech/writeups/hackthebox/myfirsthackthebox.html</link>
+      <link>https://mrmunix.github.io/RimaTech/writeups/hackthebox/myfirsthackthebox/</link>
       <pubDate>Thu, 22 May 2025 22:39:53 -0400</pubDate>
-      <guid>https://mrmunix.github.io/RimaTech/writeups/hackthebox/myfirsthackthebox.html</guid>
+      <guid>https://mrmunix.github.io/RimaTech/writeups/hackthebox/myfirsthackthebox/</guid>
       <description></description>
     </item>
     <item>
       <title>Myfirstblog</title>
-      <link>https://mrmunix.github.io/RimaTech/writeups/blogs/myfirstblog.html</link>
+      <link>https://mrmunix.github.io/RimaTech/writeups/blogs/myfirstblog/</link>
       <pubDate>Thu, 22 May 2025 22:39:39 -0400</pubDate>
-      <guid>https://mrmunix.github.io/RimaTech/writeups/blogs/myfirstblog.html</guid>
+      <guid>https://mrmunix.github.io/RimaTech/writeups/blogs/myfirstblog/</guid>
       <description></description>
     </item>
     <item>
       <title>Myfirstwriteup</title>
-      <link>https://mrmunix.github.io/RimaTech/writeups/myfirstwriteup.html</link>
+      <link>https://mrmunix.github.io/RimaTech/writeups/myfirstwriteup/</link>
       <pubDate>Thu, 22 May 2025 22:37:38 -0400</pubDate>
-      <guid>https://mrmunix.github.io/RimaTech/writeups/myfirstwriteup.html</guid>
+      <guid>https://mrmunix.github.io/RimaTech/writeups/myfirstwriteup/</guid>
       <description>&lt;p&gt;put a list of the writeups by category in here&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resources</title>
-      <link>https://mrmunix.github.io/RimaTech/resources.html</link>
+      <link>https://mrmunix.github.io/RimaTech/resources/</link>
       <pubDate>Thu, 22 May 2025 22:36:32 -0400</pubDate>
-      <guid>https://mrmunix.github.io/RimaTech/resources.html</guid>
+      <guid>https://mrmunix.github.io/RimaTech/resources/</guid>
       <description>&lt;h1 id=&#34;resources-go-here&#34;&gt;RESOURCES GO HERE&lt;/h1&gt;&#xA;&lt;p&gt;MORE STUFF&lt;/p&gt;</description>
     </item>
     <item>
       <title>Secondpost</title>
-      <link>https://mrmunix.github.io/RimaTech/workshop/secondpost.html</link>
+      <link>https://mrmunix.github.io/RimaTech/workshop/secondpost/</link>
       <pubDate>Thu, 22 May 2025 22:16:10 -0400</pubDate>
-      <guid>https://mrmunix.github.io/RimaTech/workshop/secondpost.html</guid>
+      <guid>https://mrmunix.github.io/RimaTech/workshop/secondpost/</guid>
       <description>&lt;h1 id=&#34;my-first-page&#34;&gt;My first page&lt;/h1&gt;&#xA;&lt;p&gt;this is some stuff&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://mrmunix.github.io/RimaTech/workshop/my-first-post.html</link>
+      <link>https://mrmunix.github.io/RimaTech/workshop/my-first-post/</link>
       <pubDate>Thu, 22 May 2025 21:46:08 -0400</pubDate>
-      <guid>https://mrmunix.github.io/RimaTech/workshop/my-first-post.html</guid>
+      <guid>https://mrmunix.github.io/RimaTech/workshop/my-first-post/</guid>
       <description>&lt;h1 id=&#34;my-first-page&#34;&gt;My first page&lt;/h1&gt;&#xA;&lt;p&gt;this is some stuff&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor&#xA;incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor&#xA;aliquam nulla facilisi cras fermentum odio. A erat nam at lectus urna duis.&#xA;Sed velit dignissim sodales ut eu sem. Lectus urna duis convallis convallis&#xA;tellus. Diam sit amet nisl suscipit adipiscing bibendum est. Sed felis eget&#xA;velit aliquet sagittis id consectetur. Vulputate dignissim suspendisse in est&#xA;ante in nibh mauris cursus. Morbi quis commodo odio aenean. Mollis nunc sed id&#xA;semper risus in hendrerit gravida rutrum.&lt;/p&gt;</description>
     </item>
   </channel>

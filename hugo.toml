@@ -3,9 +3,6 @@ languageCode = 'en-us'
 title = 'Rima Technologies'
 theme = 'munix'
 
-relativeURLs = true
-uglyURLs = true
-
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
