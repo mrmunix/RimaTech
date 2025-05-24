@@ -1,6 +1,8 @@
 baseURL = 'RimaTechnologies.com'
 languageCode = 'en-US'
 title = 'Rima Technologies'
+relativeURLs = true
+uglyURLs = true
 
 [caches]
   [caches.images]
