@@ -1,0 +1,100 @@
+body {
+	background-color: #2C0133;
+	color: #e0e0e0;
+	font-size: large;
+}
+
+a {
+	color: #0095e5;
+}
+
+a:hover {
+	color: #e0e0e0;
+}
+
+.nav-container {
+	overflow: hidden;
+	font-size: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.nav-container a {	
+	display: inline-block;
+	text-align: center;
+	margin-right: 15px;
+	padding: 0 3px;
+	text-decoration: none;
+	border: solid;
+}
+
+.menu-logo {
+	float: left;
+	border: none !important;
+	color: #770089;
+	font-size: 25px;
+	font-weight: 800;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.menu-logo:hover {
+	color: #770089;
+}
+
+.socials {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.home-list {
+	margin-left: 10px;
+}
+
+.home-list-paragraph {
+	margin-left: 30px;
+}
+
+.section-workshop .main-section .single-post {
+	margin-left: 30px;
+}
+
+.section-workshop .single-post h3 {
+	margin: 0;
+}
+
+.section-workshop .single-post p {
+	margin: 0;
+	padding: 0;
+}
+
+.section-writeups .main-section .single-post {
+	margin-left: 30px;
+}
+
+.section-writeups .main-section .single-post h3 {
+	margin: 0;
+}
+
+.section-writeups .main-section .single-post p {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+

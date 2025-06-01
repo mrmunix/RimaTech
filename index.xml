@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Rima Technologies</title>
+    <link>https://mrmunix.github.io/</link>
+    <description>Recent content in Home on Rima Technologies</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 May 2025 22:40:12 -0400</lastBuildDate>
+    <atom:link href="https://mrmunix.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysecondhackthebox</title>
+      <link>https://mrmunix.github.io/writeups/hackthebox/mysecondhackthebox.html</link>
+      <pubDate>Thu, 22 May 2025 22:40:12 -0400</pubDate>
+      <guid>https://mrmunix.github.io/writeups/hackthebox/mysecondhackthebox.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myfirsthackthebox</title>
+      <link>https://mrmunix.github.io/writeups/hackthebox/myfirsthackthebox.html</link>
+      <pubDate>Thu, 22 May 2025 22:39:53 -0400</pubDate>
+      <guid>https://mrmunix.github.io/writeups/hackthebox/myfirsthackthebox.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Myfirstblog</title>
+      <link>https://mrmunix.github.io/writeups/blogs/myfirstblog.html</link>
+      <pubDate>Thu, 22 May 2025 22:39:39 -0400</pubDate>
+      <guid>https://mrmunix.github.io/writeups/blogs/myfirstblog.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secondpost</title>
+      <link>https://mrmunix.github.io/workshop/secondpost.html</link>
+      <pubDate>Thu, 22 May 2025 22:16:10 -0400</pubDate>
+      <guid>https://mrmunix.github.io/workshop/secondpost.html</guid>
+      <description>&lt;h1 id=&#34;my-first-page&#34;&gt;My first page&lt;/h1&gt;&#xA;&lt;p&gt;this is some stuff&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://mrmunix.github.io/workshop/my-first-post.html</link>
+      <pubDate>Thu, 22 May 2025 21:46:08 -0400</pubDate>
+      <guid>https://mrmunix.github.io/workshop/my-first-post.html</guid>
+      <description>&lt;h1 id=&#34;my-first-page&#34;&gt;My first page&lt;/h1&gt;&#xA;&lt;p&gt;this is some stuff&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor&#xA;incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor&#xA;aliquam nulla facilisi cras fermentum odio. A erat nam at lectus urna duis.&#xA;Sed velit dignissim sodales ut eu sem. Lectus urna duis convallis convallis&#xA;tellus. Diam sit amet nisl suscipit adipiscing bibendum est. Sed felis eget&#xA;velit aliquet sagittis id consectetur. Vulputate dignissim suspendisse in est&#xA;ante in nibh mauris cursus. Morbi quis commodo odio aenean. Mollis nunc sed id&#xA;semper risus in hendrerit gravida rutrum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mrmunix.github.io/writeups/hacker101/alittlesomething/alittlesomething.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mrmunix.github.io/writeups/hacker101/alittlesomething/alittlesomething.html</guid>
+      <description>&lt;p&gt;Title: A little something to get you started&#xA;Difficulty: Trivial&#xA;Skills: Web&#xA;Flags: 1&lt;/p&gt;&#xA;&lt;h1 id=&#34;walkthrough&#34;&gt;Walkthrough&lt;/h1&gt;&#xA;&lt;p&gt;Opening the challenge brings you to this page:&#xA;&lt;img src=&#34;./Images/welcome.png&#34; alt=&#34;can&amp;rsquo;t find image&#34;&gt;&#xA;&amp;hellip; Wow, not a lot to go on.&lt;/p&gt;&#xA;&lt;p&gt;Well we can start with vulnerability analysis, setting up our proxy, port scanning, banner grabbing, or&amp;hellip;.&#xA;Let&amp;rsquo;s open up the source code&lt;/p&gt;&#xA;&lt;p&gt;With a page like this, it shouldn&amp;rsquo;t be too difficult to go through&lt;/p&gt;&#xA;&lt;p&gt;Right Click -&amp;gt; View Page Source brings me to this page:&#xA;&lt;img src=&#34;./Images/source.png&#34; alt=&#34;can&amp;rsquo;t find image&#34;&gt;&#xA;I see it uses a background image of &amp;ldquo;background.png&amp;rdquo;&#xA;the &lt;code&gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&lt;/code&gt; tags let me know that this is embedded CSS. I also know 2 things from the &amp;ldquo;background.png&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1/micro-cmsv1.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1/micro-cmsv1.html</guid>
+      <description>&lt;p&gt;Title: Micro-CMS v1&#xA;Difficulty: East&#xA;Skills: Web&#xA;Flags: 4&lt;/p&gt;&#xA;&lt;h1 id=&#34;walkthrough&#34;&gt;Walkthrough&lt;/h1&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with the name:&#xA;CMS is a Content Management System, so even before loading it up, I can see that it will probably be about some lightweight cms they give us&lt;/p&gt;&#xA;&lt;p&gt;Loading the page we get:&#xA;&lt;img src=&#34;./Images/startpage.png&#34; alt=&#34;Can&amp;rsquo;t Find Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Plan of attack: Click on each option and peruse&amp;hellip;.&lt;/p&gt;&#xA;&lt;p&gt;Selecting the Testing link brings you to a new page which I wil go into in a second, but first, I see this url:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>https://mrmunix.github.io/resources.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mrmunix.github.io/resources.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bar on Rima Technologies</title>
+    <link>https://mrmunix.github.io/tags/bar.html</link>
+    <description>Recent content in Bar on Rima Technologies</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 May 2025 21:46:08 -0400</lastBuildDate>
+    <atom:link href="https://mrmunix.github.io/tags/bar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://mrmunix.github.io/workshop/my-first-post.html</link>
+      <pubDate>Thu, 22 May 2025 21:46:08 -0400</pubDate>
+      <guid>https://mrmunix.github.io/workshop/my-first-post.html</guid>
+      <description>&lt;h1 id=&#34;my-first-page&#34;&gt;My first page&lt;/h1&gt;&#xA;&lt;p&gt;this is some stuff&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor&#xA;incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor&#xA;aliquam nulla facilisi cras fermentum odio. A erat nam at lectus urna duis.&#xA;Sed velit dignissim sodales ut eu sem. Lectus urna duis convallis convallis&#xA;tellus. Diam sit amet nisl suscipit adipiscing bibendum est. Sed felis eget&#xA;velit aliquet sagittis id consectetur. Vulputate dignissim suspendisse in est&#xA;ante in nibh mauris cursus. Morbi quis commodo odio aenean. Mollis nunc sed id&#xA;semper risus in hendrerit gravida rutrum.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
