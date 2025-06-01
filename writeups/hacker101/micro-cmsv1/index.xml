@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Micro-CMS v1 on Rima Technologies</title>
+    <link>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1.html</link>
+    <description>Recent content in Micro-CMS v1 on Rima Technologies</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://mrmunix.github.io/writeups/hacker101/micro-cmsv1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1/micro-cmsv1.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1/micro-cmsv1.html</guid>
+      <description>&lt;p&gt;Title: Micro-CMS v1&#xA;Difficulty: East&#xA;Skills: Web&#xA;Flags: 4&lt;/p&gt;&#xA;&lt;h1 id=&#34;walkthrough&#34;&gt;Walkthrough&lt;/h1&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with the name:&#xA;CMS is a Content Management System, so even before loading it up, I can see that it will probably be about some lightweight cms they give us&lt;/p&gt;&#xA;&lt;p&gt;Loading the page we get:&#xA;&lt;img src=&#34;./Images/startpage.png&#34; alt=&#34;Can&amp;rsquo;t Find Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Plan of attack: Click on each option and peruse&amp;hellip;.&lt;/p&gt;&#xA;&lt;p&gt;Selecting the Testing link brings you to a new page which I wil go into in a second, but first, I see this url:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
