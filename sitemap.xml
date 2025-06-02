@@ -2,23 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mrmunix.github.io/writeups/hackthebox.html</loc>
-    <lastmod>2025-05-22T22:40:12-04:00</lastmod>
+    <loc>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1.html</loc>
+    <lastmod>2025-06-01T20:29:43-04:00</lastmod>
   </url><url>
-    <loc>https://mrmunix.github.io/writeups/hackthebox/mysecondhackthebox.html</loc>
-    <lastmod>2025-05-22T22:40:12-04:00</lastmod>
+    <loc>https://mrmunix.github.io/writeups/hacker101/alittlesomething.html</loc>
+    <lastmod>2025-06-01T20:29:37-04:00</lastmod>
   </url><url>
     <loc>https://mrmunix.github.io/writeups.html</loc>
-    <lastmod>2025-05-22T22:40:12-04:00</lastmod>
-  </url><url>
-    <loc>https://mrmunix.github.io/writeups/hackthebox/myfirsthackthebox.html</loc>
-    <lastmod>2025-05-22T22:39:53-04:00</lastmod>
-  </url><url>
-    <loc>https://mrmunix.github.io/writeups/blogs.html</loc>
-    <lastmod>2025-05-22T22:39:39-04:00</lastmod>
-  </url><url>
-    <loc>https://mrmunix.github.io/writeups/blogs/myfirstblog.html</loc>
-    <lastmod>2025-05-22T22:39:39-04:00</lastmod>
+    <lastmod>2025-06-01T20:25:24-04:00</lastmod>
   </url><url>
     <loc>https://mrmunix.github.io/workshop/secondpost.html</loc>
     <lastmod>2025-05-22T22:16:10-04:00</lastmod>
@@ -43,15 +34,11 @@
   </url><url>
     <loc>https://mrmunix.github.io/writeups/hacker101/alittlesomething/alittlesomething.html</loc>
   </url><url>
+    <loc>https://mrmunix.github.io/writeups/hacker101/alittlesomething/readme.html</loc>
+  </url><url>
     <loc>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1/micro-cmsv1.html</loc>
   </url><url>
-    <loc>https://mrmunix.github.io/writeups/hacker101/alittlesomething.html</loc>
-  </url><url>
     <loc>https://mrmunix.github.io/categories.html</loc>
-  </url><url>
-    <loc>https://mrmunix.github.io/writeups/hacker101.html</loc>
-  </url><url>
-    <loc>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1.html</loc>
   </url><url>
     <loc>https://mrmunix.github.io/resources.html</loc>
   </url>

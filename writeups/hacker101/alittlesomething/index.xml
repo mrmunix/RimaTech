@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A little something on Rima Technologies</title>
+    <title>ALittleSomething on Rima Technologies</title>
     <link>https://mrmunix.github.io/writeups/hacker101/alittlesomething.html</link>
-    <description>Recent content in A little something on Rima Technologies</description>
+    <description>Recent content in ALittleSomething on Rima Technologies</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mrmunix.github.io/writeups/hacker101/alittlesomething/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://mrmunix.github.io/writeups/hacker101/alittlesomething/alittlesomething.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://mrmunix.github.io/writeups/hacker101/alittlesomething/alittlesomething.html</guid>
+      <description>&lt;p&gt;Title: A little something to get you started&#xA;Difficulty: Trivial&#xA;Skills: Web&#xA;Flags: 1&lt;/p&gt;&#xA;&lt;h1 id=&#34;walkthrough&#34;&gt;Walkthrough&lt;/h1&gt;&#xA;&lt;p&gt;Opening the challenge brings you to this page:&#xA;&lt;img src=&#34;./Images/welcome.png&#34; alt=&#34;can&amp;rsquo;t find image&#34;&gt;&#xA;&amp;hellip; Wow, not a lot to go on.&lt;/p&gt;&#xA;&lt;p&gt;Well we can start with vulnerability analysis, setting up our proxy, port scanning, banner grabbing, or&amp;hellip;.&#xA;Let&amp;rsquo;s open up the source code&lt;/p&gt;&#xA;&lt;p&gt;With a page like this, it shouldn&amp;rsquo;t be too difficult to go through&lt;/p&gt;&#xA;&lt;p&gt;Right Click -&amp;gt; View Page Source brings me to this page:&#xA;&lt;img src=&#34;./Images/source.png&#34; alt=&#34;can&amp;rsquo;t find image&#34;&gt;&#xA;I see it uses a background image of &amp;ldquo;background.png&amp;rdquo;&#xA;the &lt;code&gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&lt;/code&gt; tags let me know that this is embedded CSS. I also know 2 things from the &amp;ldquo;background.png&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mrmunix.github.io/writeups/hacker101/alittlesomething/readme.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mrmunix.github.io/writeups/hacker101/alittlesomething/readme.html</guid>
       <description>&lt;p&gt;Title: A little something to get you started&#xA;Difficulty: Trivial&#xA;Skills: Web&#xA;Flags: 1&lt;/p&gt;&#xA;&lt;h1 id=&#34;walkthrough&#34;&gt;Walkthrough&lt;/h1&gt;&#xA;&lt;p&gt;Opening the challenge brings you to this page:&#xA;&lt;img src=&#34;./Images/welcome.png&#34; alt=&#34;can&amp;rsquo;t find image&#34;&gt;&#xA;&amp;hellip; Wow, not a lot to go on.&lt;/p&gt;&#xA;&lt;p&gt;Well we can start with vulnerability analysis, setting up our proxy, port scanning, banner grabbing, or&amp;hellip;.&#xA;Let&amp;rsquo;s open up the source code&lt;/p&gt;&#xA;&lt;p&gt;With a page like this, it shouldn&amp;rsquo;t be too difficult to go through&lt;/p&gt;&#xA;&lt;p&gt;Right Click -&amp;gt; View Page Source brings me to this page:&#xA;&lt;img src=&#34;./Images/source.png&#34; alt=&#34;can&amp;rsquo;t find image&#34;&gt;&#xA;I see it uses a background image of &amp;ldquo;background.png&amp;rdquo;&#xA;the &lt;code&gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&lt;/code&gt; tags let me know that this is embedded CSS. I also know 2 things from the &amp;ldquo;background.png&amp;rdquo;&lt;/p&gt;</description>
     </item>
   </channel>
