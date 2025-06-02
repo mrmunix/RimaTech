@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mrmunix.github.io/writeups/hacker101.html</loc>
+    <lastmod>2025-06-01T20:44:46-04:00</lastmod>
+  </url><url>
     <loc>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1.html</loc>
     <lastmod>2025-06-01T20:29:43-04:00</lastmod>
   </url><url>
+    <loc>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1/micro-cmsv1.html</loc>
+    <lastmod>2025-06-01T20:29:43-04:00</lastmod>
+  </url><url>
     <loc>https://mrmunix.github.io/writeups/hacker101/alittlesomething.html</loc>
+    <lastmod>2025-06-01T20:29:37-04:00</lastmod>
+  </url><url>
+    <loc>https://mrmunix.github.io/writeups/hacker101/alittlesomething/alittlesomething.html</loc>
     <lastmod>2025-06-01T20:29:37-04:00</lastmod>
   </url><url>
     <loc>https://mrmunix.github.io/writeups.html</loc>
@@ -31,12 +40,6 @@
   </url><url>
     <loc>https://mrmunix.github.io/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
-  </url><url>
-    <loc>https://mrmunix.github.io/writeups/hacker101/alittlesomething/alittlesomething.html</loc>
-  </url><url>
-    <loc>https://mrmunix.github.io/writeups/hacker101/alittlesomething/readme.html</loc>
-  </url><url>
-    <loc>https://mrmunix.github.io/writeups/hacker101/micro-cmsv1/micro-cmsv1.html</loc>
   </url><url>
     <loc>https://mrmunix.github.io/categories.html</loc>
   </url><url>
