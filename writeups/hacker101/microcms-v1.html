@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    
+    
+    <title>Rima Technologies | Micro CMSv1</title>
+</head><body class="section-writeups"><div id="nav-border" class="nav-container">
+    <nav id="nav" class="nav nav-container justify-content-center">
+	    <a class="menu-logo" href="../../">Rima Technologies</a>
+        
+	<a  href="../../">
+        
+        Home
+        </a>
+        
+	<a  href="../../workshop.html">
+        
+        Workshop
+        </a>
+        
+	<a  href="../../resources.html">
+        
+        Resources
+        </a>
+        
+	<a  href="../../writeups.html">
+        
+        Writeups
+        </a>
+        
+    </nav>
+</div>
+<div class="main-section" id="content">
+<h1>Micro CMSv1</h1>
+<p>Title: Micro-CMS v1
+Difficulty: East
+Skills: Web
+Flags: 4</p>
+<h1 id="walkthrough">Walkthrough</h1>
+<p>Let&rsquo;s start with the name:
+CMS is a Content Management System, so even before loading it up, I can see that it will probably be about some lightweight cms they give us</p>
+<p>Loading the page we get:
+<img src="./Images/startpage.png" alt="Can&rsquo;t Find Image"></p>
+<p>Plan of attack: Click on each option and peruse&hellip;.</p>
+<p>Selecting the Testing link brings you to a new page which I wil go into in a second, but first, I see this url:</p>
+<p><a href="https://9c01fd118736ac24fe91535c675778ec.ctf.hacker101.com/page/1">https://9c01fd118736ac24fe91535c675778ec.ctf.hacker101.com/page/1</a></p>
+<p>I see the &ldquo;/page/1&rdquo; at then end and am curious if there are more pages. Let&rsquo;s start up burp and get the fuzzer working. (look at the how to page (if I have it up and running which it currently is not) to see how to fuzz on burp and how to connect burp to your browser)</p>
+<p>As I wait to get burp started, here&rsquo;s a quick tip: Use multiple monitors&hellip;. I am on my laptop and window management is a pain</p>
+<p>In the intruder, I put marks around the 1 in the get request, select a payload of number from 1 to 100 and let it rip. I have the community edition so this may take a while.</p>
+<p><img src="./Images/TestingIntruder.png" alt="Can&rsquo;t Find Image"></p>
+<p>I&rsquo;m also quickly going to navigate the provided pages to see what numbers it gives me</p>
+<p>Testing &hellip;. 1
+Markdown Test &hellip;. 2</p>
+<p>and thats it so far</p>
+<p>Well, sorting by status codes gives me:
+page 1&hellip; 200
+page 2&hellip; 200
+and then page 4&hellip; 403 (forbidden) I like this page, we should try it later
+the rest give me 404 not found.</p>
+<p>Back to page 1 (Testing)
+If I select Edit this page, it brings me here:
+<img src="./Images/editpage.png" alt="Can&rsquo;t Find Image">
+It tells me Markdown is supported but scripts are not.</p>
+<p>I&rsquo;m going to try a few things:</p>
+<ol>
+<li>Javascript in the Title field</li>
+<li>Javascript in the big textbox</li>
+<li>embedded code in the Markdown file</li>
+</ol>
+<p>option 1 and 2 didnt work
+I got fixated on option 3 and nothing was working, but in the process I had an idea. The response page returned a <code>&lt;h1&gt;title&lt;/h1&gt;</code> for whatever was in the title field. So in the title field, I put <code>&lt;/h1&gt;&lt;a&gt;test&lt;/a&gt;&lt;h1&gt;</code> which closes the first h1 tag, makes my own a tag, and opens up another h1 tag to be closed
+My though was maybe I can use this to find a link to some flag.txt page, but upon hitting save and Go Home it gave a pop up with a flag.</p>
+<p>Wow. ok 1 down 3 to go.</p>
+<p>So now we go to the Markdown Test page:
+<img src="./Images/MarkdownTestPage.png" alt="Can&rsquo;t Find Image">
+I see up top there is an &ldquo;Edit this page&rdquo; link and &ldquo;Some button&rdquo; down below. This screams &ldquo;TWO FLAGS OVER HERE!&rdquo; to me.</p>
+<p>So we go to edit this page, I see that the button is simply created with html flags I know that any mention of the word &ldquo;script&rdquo; is banned, so maybe this will only be one flag? We shall see.</p>
+<p>The page doesnt like to save when my proxy is connected so i shut it off. I&rsquo;m keeping burp open though in case I need it.
+Never mind, I had to just restart the server&hellip; ok where was I</p>
+<p>The button tags can use the onClick method to put in some javascript, but I don&rsquo;t have a use for that now, so putting that in my back pocket.</p>
+<p>Ok&hellip; a little bit random, but I realized the edit pages took you to <code>https://&lt;url&gt;/pages/edit/&lt;number&gt;</code>
+so i went to the edit page for number 4 and got another flag&hellip;</p>
+<p><img src="./Images/edit4flag.png" alt="Can&rsquo;t Find Image"></p>
+<p>Well.. I shut off my proxy cause I thought it was causing issues, so it took me a suuuper long time to find the 3rd flag. But once I reconnected it, I saw that after I edited the page (I&rsquo;m sure it was there before too), I added <code>onClick=&quot;alert(123)</code> to the button tag to test it out, but in the response shown in burpsuit the button had a <code>flag=&lt;flag&gt;</code> attribute already associated. *sigh* sometimes it really is that easy.</p>
+<p>Ok on to flag #4</p>
+<p>For our last link: Create New Page
+<img src="./Images/createNewPage.png" alt="Can&rsquo;t Find Image">
+let&rsquo;s just put some random content and look at the response</p>
+<p><img src="./Images/createpagecontent.png" alt="Can&rsquo;t Find Image">
+<img src="./Images/createpageburp.png" alt="Can&rsquo;t Find Image">
+cool little note, this created a page &ldquo;page/9&rdquo; and the edit page is &ldquo;edit/9&rdquo; which is pretty neat.</p>
+<p>I&rsquo;m gonna be honest, i&rsquo;m a little stuck and started asking for hints. turns out, on the hits page, it says I found Flag 0, Flag 2, and Flag 3. Which means I&rsquo;m missing flag 1.</p>
+<p>I&rsquo;m going to try and look at some of the other links again and see if I missed anything</p>
+<p>Ok after some hints, I saw that there was a SQL injection in the url. Honestly, I never thought of that, I don&rsquo;t think I realized urls could be subjected to SQLi but now I do</p>
+<p>putting a single quote <code>'</code> at the end of the url (page/edit/1&rsquo;) gave me the flag</p>
+<h2 id="lessons-learned">Lessons Learned</h2>
+<ol>
+<li>Write down the actual received flags!! (even if you delete them later). In a few of the sections I got the same flag because I used the same method. They were slightly different versions of XSS in different pages and fields so I wasnt sure if it was the same flag or not. I kept submitting it, and hacker101 didn&rsquo;t tell me if it was already submitted (it usually does give feedback i dont know why it is not right now) so just being able to check flags against submitted ones would be nice.</li>
+<li>As is the case in the last flag (or rather Flag 1 as hacker101 calls it) check for SQLi in URLs. this will help as I go through OWASP top 10. I should both check for each part of the list, as well as make sure im checking all aspects of the list. I guess the hard part is not knowing what you dont know.</li>
+</ol>
+
+<div class="single-post">
+<ul>
+
+    
+</ul>
+</div>
+<br>
+
+        </div><section class="socials">
+    <ul>
+        <a href="https://github.com/mrmunix">Github</a>
+        <a href="https://app.hackthebox.com/profile/1568751">HackTheBox</a>
+        <a href="https://leetcode.com/jamir12/">LeetCode</a>
+        <a href="https://bugcrowd.com/jabir">BugCrowd</a>
+    </ul>
+</section><script src="../../js/feather.min.js"></script>
+<script>
+  feather.replace()
+</script></body>
+</html>
