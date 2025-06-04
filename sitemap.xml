@@ -2,41 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/writeups/hacker101/alittlesomething.html</loc>
+    <loc>https://mrmunix.github.io/workshop.html</loc>
+    <lastmod>2025-06-04T11:54:05-04:00</lastmod>
+  </url><url>
+    <loc>https://mrmunix.github.io/writeups/hacker101/alittlesomething.html</loc>
     <lastmod>2025-06-02T05:04:09-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writeups/hacker101/microcms-v1.html</loc>
+    <loc>https://mrmunix.github.io/writeups/hacker101/microcms-v1.html</loc>
     <lastmod>2025-06-02T05:03:15-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writeups/hacker101.html</loc>
+    <loc>https://mrmunix.github.io/writeups/hacker101.html</loc>
     <lastmod>2025-06-01T20:44:46-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writeups.html</loc>
+    <loc>https://mrmunix.github.io/writeups.html</loc>
     <lastmod>2025-06-01T20:25:24-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/workshop/secondpost.html</loc>
-    <lastmod>2025-05-22T22:16:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/workshop.html</loc>
-    <lastmod>2025-05-22T22:16:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/bar.html</loc>
-    <lastmod>2025-05-22T21:46:08-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/foo.html</loc>
-    <lastmod>2025-05-22T21:46:08-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/workshop/my-first-post.html</loc>
-    <lastmod>2025-05-22T21:46:08-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags.html</loc>
-    <lastmod>2025-05-22T21:46:08-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://mrmunix.github.io/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories.html</loc>
+    <loc>https://mrmunix.github.io/workshop/formula-sheets.html</loc>
   </url><url>
-    <loc>http://localhost:1313/resources.html</loc>
+    <loc>https://mrmunix.github.io/categories.html</loc>
+  </url><url>
+    <loc>https://mrmunix.github.io/resources.html</loc>
+  </url><url>
+    <loc>https://mrmunix.github.io/tags.html</loc>
   </url>
 </urlset>

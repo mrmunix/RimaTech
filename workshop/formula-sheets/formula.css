@@ -1,0 +1,18 @@
+  #pdf-options {
+    margin-bottom: 12px;
+    border-radius: 4px; 
+  }
+
+  .display {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  embed{
+    width:90vw;
+    height:90vh;
+  }
+
+  .linktypes{
+    display:flex;
+  }
