@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mrmunix.github.io/writeups/howtos/makesqli.html</loc>
+    <lastmod>2025-06-09T13:25:39-04:00</lastmod>
+  </url><url>
+    <loc>https://mrmunix.github.io/writeups/howtos.html</loc>
+    <lastmod>2025-06-09T13:24:22-04:00</lastmod>
+  </url><url>
+    <loc>https://mrmunix.github.io/writeups/ctfs.html</loc>
+    <lastmod>2025-06-09T13:24:00-04:00</lastmod>
+  </url><url>
     <loc>https://mrmunix.github.io/workshop.html</loc>
     <lastmod>2025-06-04T11:54:05-04:00</lastmod>
   </url><url>
-    <loc>https://mrmunix.github.io/writeups/hacker101/alittlesomething.html</loc>
+    <loc>https://mrmunix.github.io/writeups/ctfs/hacker101/alittlesomething.html</loc>
     <lastmod>2025-06-02T05:04:09-04:00</lastmod>
   </url><url>
-    <loc>https://mrmunix.github.io/writeups/hacker101/microcms-v1.html</loc>
+    <loc>https://mrmunix.github.io/writeups/ctfs/hacker101/microcms-v1.html</loc>
     <lastmod>2025-06-02T05:03:15-04:00</lastmod>
   </url><url>
-    <loc>https://mrmunix.github.io/writeups/hacker101.html</loc>
+    <loc>https://mrmunix.github.io/writeups/ctfs/hacker101.html</loc>
     <lastmod>2025-06-01T20:44:46-04:00</lastmod>
   </url><url>
     <loc>https://mrmunix.github.io/writeups.html</loc>

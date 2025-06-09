@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="../../../css/style.css">
+    
+    
+    <title>Rima Technologies | ALittleSomething</title>
+</head><body class="section-writeups"><div id="nav-border" class="nav-container">
+    <nav id="nav" class="nav nav-container justify-content-center">
+	    <a class="menu-logo" href="../../../">Rima Technologies</a>
+        
+	<a  href="../../../">
+        
+        Home
+        </a>
+        
+	<a  href="../../../workshop.html">
+        
+        Workshop
+        </a>
+        
+	<a  href="../../../resources.html">
+        
+        Resources
+        </a>
+        
+	<a  href="../../../writeups.html">
+        
+        Writeups
+        </a>
+        
+    </nav>
+</div>
+<div class="main-section" id="content">
+<h1>ALittleSomething</h1>
+<p>Title: A little something to get you started
+Difficulty: Trivial
+Skills: Web
+Flags: 1</p>
+<h1 id="walkthrough">Walkthrough</h1>
+<p>Opening the challenge brings you to this page:
+<img src="../../../writeups/hacker101/alittlesomething/Images/welcome.png" alt="can&rsquo;t find image">
+&hellip; Wow, not a lot to go on.</p>
+<p>Well we can start with vulnerability analysis, setting up our proxy, port scanning, banner grabbing, or&hellip;.
+Let&rsquo;s open up the source code</p>
+<p>With a page like this, it shouldn&rsquo;t be too difficult to go through</p>
+<p>Right Click -&gt; View Page Source brings me to this page:
+<img src="../../../writeups/hacker101/alittlesomething/Images/source.png" alt="can&rsquo;t find image">
+I see it uses a background image of &ldquo;background.png&rdquo;
+the <code>&lt;style&gt;&lt;/style&gt;</code> tags let me know that this is embedded CSS. I also know 2 things from the &ldquo;background.png&rdquo;</p>
+<ol>
+<li>It is suspicious because there is no background on the page, yet a background image is being specified</li>
+<li>the &ldquo;background.png&rdquo; file exists in the same directory since it is not a web address and also does not have any directory traversal indication (example: ../background.png or /images/background.png)</li>
+</ol>
+<p>So to access it, I will try appending it to the end of the url
+<code>https://f9c3a15b61debe0bb887478cc573e908.ctf.hacker101.com/background.png</code></p>
+<p>And voila:
+<img src="../../../writeups/hacker101/alittlesomething/Images/flag.png" alt="can&rsquo;t find image"></p>
+<h2 id="lessons-learned">Lessons Learned:</h2>
+<p>KISS (Keep It Simple Stupid)</p>
+
+<div class="single-post">
+<ul>
+
+    
+</ul>
+</div>
+<br>
+
+        </div><section class="socials">
+    <ul>
+        <a href="https://github.com/mrmunix">Github</a>
+        <a href="https://app.hackthebox.com/profile/1568751">HackTheBox</a>
+        <a href="https://leetcode.com/jamir12/">LeetCode</a>
+        <a href="https://bugcrowd.com/jabir">BugCrowd</a>
+    </ul>
+</section><script src="../../../js/feather.min.js"></script>
+<script>
+  feather.replace()
+</script></body>
+</html>
