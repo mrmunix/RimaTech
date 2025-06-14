@@ -37,6 +37,76 @@
 <h1>How to Craft SQL Injection Payloads</h1>
 <p>So you suspect there&rsquo;s an SQL injection (SQLi)&hellip; but you don&rsquo;t know how to prove it&hellip;</p>
 <p>Well you&rsquo;ve come to the right place. This is my first instructional, inspired by my struggle to get through the MicroCMS-v2. I know there is SQLi but I just can&rsquo;t seem to figure it out. So I&rsquo;ll write this and hopefully will make a breakthrough.</p>
+<h2 id="about-sql">About SQL</h2>
+<p>First of all, some people may rope use SQL injection synonymously with database injection as a whole, which may also include NoSQL injections. This write up will focust specifically on SQL databases.</p>
+<p>SQL stands for Standard Querry Language, and it&rsquo;s the way that <strong>Relational Databases</strong> interact with itself or other applications. NoSQL is a language to interacti with <strong>NON-Relational Databases</strong>. There a number of popular databases that use SQL like MySQL, PostgreSQL, Oracle Databae, and more. These can be called Relational DataBase Management Systems (RDBMS). If you can determine that an application has an SQL based database, you can start looking for SQLi.</p>
+<p>Some basic commands that you can string together can be found here (don&rsquo;t worry, we&rsquo;ll go over more specifics in a little bit):</p>
+<table>
+  <thead>
+      <tr>
+          <th>Verbs</th>
+          <th>Modifiers</th>
+          <th>Data Types</th>
+          <th>Symbols (purpose)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>SELECT</td>
+          <td>WHERE</td>
+          <td>Integer</td>
+          <td>&lsquo;, &quot; (String Delimiters)</td>
+      </tr>
+      <tr>
+          <td>INSERT</td>
+          <td>AND</td>
+          <td>Float</td>
+          <td>; (SQL Statement Terminator)</td>
+      </tr>
+      <tr>
+          <td>UPDATE</td>
+          <td>OR</td>
+          <td>Char</td>
+          <td>&ndash;, #  (Comment Delimiter)</td>
+      </tr>
+      <tr>
+          <td>DELETE</td>
+          <td>ORDER BY</td>
+          <td>Boolean</td>
+          <td>%, * (Wildcard Character)</td>
+      </tr>
+      <tr>
+          <td>DROP</td>
+          <td>LIMIT</td>
+          <td>Binary</td>
+          <td>+, &quot;&quot; (String Concatenation)</td>
+      </tr>
+      <tr>
+          <td>UNION</td>
+          <td></td>
+          <td>Date</td>
+          <td>-, +, &lt;, &gt; (Math Operators)</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td>Timestamp</td>
+          <td>= (Equivalence)</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>() (Calling Functions, Subqueries, and INSERTS)</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>%00</td>
+      </tr>
+  </tbody>
+</table>
 <h2 id="types-of-sql-injection">Types of SQL Injection</h2>
 <h2 id="how-to-test-for-sqli">How to test for SQLi</h2>
 <h2 id="crafting-sql-statements">Crafting SQL Statements</h2>
