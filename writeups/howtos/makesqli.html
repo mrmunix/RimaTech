@@ -36,7 +36,7 @@
 <div class="main-section" id="content">
 <h1>How to Craft SQL Injection Payloads</h1>
 <p>So you suspect there&rsquo;s an SQL injection (SQLi)&hellip; but you don&rsquo;t know how to prove it&hellip;</p>
-<p>Well you&rsquo;ve come to the right place. This is my first instructional, inspired by my struggle to get through the MicroCMS-v2. I know there is SQLi but I just can&rsquo;t seem to figure it out. So I&rsquo;ll write this and hopefully will make a breakthrough.</p>
+<p>Well you&rsquo;ve come to the right place. This is my first instructional, inspired by my struggle to get through the MicroCMS-v2. I know there is SQLi but I just can&rsquo;t seem to figure out how to craft my payload properly. So I&rsquo;ll write this and hopefully will make a breakthrough.</p>
 <h2 id="about-sql">About SQL</h2>
 <p>First of all, some people may rope use SQL injection synonymously with database injection as a whole, which may also include NoSQL injections. This write up will focust specifically on SQL databases.</p>
 <p>SQL stands for Standard Querry Language, and it&rsquo;s the way that <strong>Relational Databases</strong> interact with itself or other applications. NoSQL is a language to interacti with <strong>NON-Relational Databases</strong>. There a number of popular databases that use SQL like MySQL, PostgreSQL, Oracle Databae, and more. These can be called Relational DataBase Management Systems (RDBMS). If you can determine that an application has an SQL based database, you can start looking for SQLi.</p>
@@ -107,9 +107,15 @@
       </tr>
   </tbody>
 </table>
-<h2 id="types-of-sql-injection">Types of SQL Injection</h2>
+<h2 id="where-are-sql-injection">Where Are SQL Injection</h2>
+<p>So where can we find SQL injections? Well they might occur anywhere that there is a request being sent to a database. This may be in a URL if the pages are retrieved from a database, or maybe in input forms or login screens. They can also be in HTTP headers or cookies. To confirm if input fields are calling to databases, we can either look at its use case (maybe it&rsquo;s pulling customer data, maybe it&rsquo;s a login, maybe it outright says searching in databases). When fingerprinting the network, you can also see if it has any databases attached (that will also help determine if it is an SQL or NoSQL database.). Finally, if you can look at the network traffic, it may give you some clues as to how the data is being sent, and you can see if there is sql syntax involved.</p>
+<p>The most sure method, however, is by putting in test cases to try.</p>
 <h2 id="how-to-test-for-sqli">How to test for SQLi</h2>
+<h3 id="manual-testing">Manual Testing</h3>
+<h3 id="using-automated-tools">Using Automated Tools</h3>
 <h2 id="crafting-sql-statements">Crafting SQL Statements</h2>
+<h3 id="types-of-sqli">Types of SQLi</h3>
+<h3 id="how-to-craft">How to Craft</h3>
 <h2 id="making-sql-bruteforce-lists">Making SQL Bruteforce Lists</h2>
 
 <div class="single-post">
