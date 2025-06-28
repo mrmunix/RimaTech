@@ -134,10 +134,23 @@ There are a lot more other statements, take a look at the wordlist and see if yo
 <h3 id="using-automated-tools">Using Automated Tools</h3>
 <p>You can also use burp, zap, sometimes FFUF, or other tools to automate the process of testing payloads. There are tutorials on how to use them in on my website. Essentially, load up a wordlist, let it run, and filter on different outputs.</p>
 <p>This would also be a good time to talk about a tool called sqlmap. This is a super helpful way to exploit SQL injection, and there is a writeup on how to use that on the website as well.</p>
+<h3 id="identification">Identification</h3>
+<p>Some common indicators SQL injection is possible:</p>
+<ul>
+<li>Error-Based: the database generates an error maybe with useful information</li>
+<li>Time-Based: The database may take longer or quicker depending on if the statements are valid or not. Additionally, you can use database commands like <code>sleep</code> to delay output times</li>
+</ul>
 <h2 id="crafting-sql-statements">Crafting SQL Statements</h2>
-<p>So let&rsquo;s say you found a payload that works and causes some interrupt (not all statements will cause anomalous activity and not all statements that do will be able to work for your goal). Now we have to craft some kind of payload to actually achieve the objective.</p>
-<h3 id="types-of-sqli">Types of SQLi</h3>
-<h3 id="how-to-craft">How to Craft</h3>
+<p>So let&rsquo;s say you found a payload that works and causes some interrupt (not all statements will cause anomalous activity and not all statements that do will be able to work for your goal). Now we have to craft some kind of payload to actually achieve the objective. A good resouce for some of this information can be found <a href="https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/#UnionInjections">here</a>.</p>
+<p>There are a few different types to look out for:</p>
+<h3 id="simple-select">Simple Select</h3>
+<h3 id="if-statements">If Statements</h3>
+<h3 id="stacked-queries">Stacked Queries</h3>
+<h3 id="string-operations">String Operations</h3>
+<h3 id="union-injections">Union Injections</h3>
+<h3 id="order-by">Order By</h3>
+<h3 id="inserts">Inserts</h3>
+<h3 id="blind-injection">Blind Injection</h3>
 <h2 id="resources">Resources</h2>
 
 <div class="single-post">
