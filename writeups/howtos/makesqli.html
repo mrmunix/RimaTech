@@ -112,11 +112,33 @@
 <p>The most sure method, however, is by putting in test cases to try.</p>
 <h2 id="how-to-test-for-sqli">How to test for SQLi</h2>
 <h3 id="manual-testing">Manual Testing</h3>
+<p>Included in the resources section will be links to cheat sheets and wordlists to try. Understanding the general premise, however, will help show how you can make your own on the fly. Let&rsquo;s look at an example SQL statement:
+query = &ldquo;SELECT * FROM users WHERE username = &lsquo;user&rsquo;;&rdquo;</p>
+<p>In this example, it seems like there is some search field, you type <code>user</code> into the input field, and the database returns something about user. This is the statement that is on the backed that we will try and get a reaction out of.
+Now there are many variations with different quirks in them, so it might take some fishing arround to get a reaction out of it.</p>
+<p>One idea, is to type <code>user'</code> into the input field. Now, the statement looks like this:
+query = &ldquo;SELECT * FROM users WHERE username = &lsquo;user&rsquo;&rsquo;;&rdquo;
+Notice how the single quotes end early and there is now an unended single quote at the end as a result. This may return some error.
+Additionally, we can try writing <code>' OR 1=1; --</code> in which our query would look like:
+query = &ldquo;SELECT * FROM users WHERE username = &rsquo;&rsquo; OR 1=1; &ndash;&rsquo;;&rdquo;
+This works because</p>
+<ul>
+<li><code>'</code> closes the string</li>
+<li><code>OR</code> makes it so that the statement is always true (meaning theoretically, the SQL statement should always return an output)</li>
+<li><code>1=1</code> always evaluates to true (similarly we could use <code>1=0</code> if we wanted false, or <code>a=a</code>)</li>
+<li><code>;</code> ends the statement</li>
+<li><code>--</code> indicates everything else after is a comment (to get rid of the open <code>'</code> left over)
+There are a lot more other statements, take a look at the wordlist and see if you can tell how they work.</li>
+</ul>
+<p>When you use a good statement, you will know because there may be an error, unexpected output, or some kind of anomolous activity.</p>
 <h3 id="using-automated-tools">Using Automated Tools</h3>
+<p>You can also use burp, zap, sometimes FFUF, or other tools to automate the process of testing payloads. There are tutorials on how to use them in on my website. Essentially, load up a wordlist, let it run, and filter on different outputs.</p>
+<p>This would also be a good time to talk about a tool called sqlmap. This is a super helpful way to exploit SQL injection, and there is a writeup on how to use that on the website as well.</p>
 <h2 id="crafting-sql-statements">Crafting SQL Statements</h2>
+<p>So let&rsquo;s say you found a payload that works and causes some interrupt (not all statements will cause anomalous activity and not all statements that do will be able to work for your goal). Now we have to craft some kind of payload to actually achieve the objective.</p>
 <h3 id="types-of-sqli">Types of SQLi</h3>
 <h3 id="how-to-craft">How to Craft</h3>
-<h2 id="making-sql-bruteforce-lists">Making SQL Bruteforce Lists</h2>
+<h2 id="resources">Resources</h2>
 
 <div class="single-post">
 <ul>

@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mrmunix.github.io/writeups/tooltutorials/ffuf.html</loc>
+    <lastmod>2025-06-27T21:27:07-04:00</lastmod>
+  </url><url>
+    <loc>https://mrmunix.github.io/writeups/tooltutorials/zap.html</loc>
+    <lastmod>2025-06-27T21:27:03-04:00</lastmod>
+  </url><url>
+    <loc>https://mrmunix.github.io/writeups/tooltutorials/burp.html</loc>
+    <lastmod>2025-06-27T21:26:58-04:00</lastmod>
+  </url><url>
+    <loc>https://mrmunix.github.io/writeups/tooltutorials.html</loc>
+    <lastmod>2025-06-27T21:11:40-04:00</lastmod>
+  </url><url>
+    <loc>https://mrmunix.github.io/writeups/tooltutorials/sqlmap.html</loc>
+    <lastmod>2025-06-27T21:11:11-04:00</lastmod>
+  </url><url>
     <loc>https://mrmunix.github.io/writeups/howtos/makesqli.html</loc>
     <lastmod>2025-06-09T13:25:39-04:00</lastmod>
   </url><url>
